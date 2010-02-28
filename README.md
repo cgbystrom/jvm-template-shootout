@@ -4,6 +4,7 @@ Small benchmark utility for testing different templating engines available on th
 I was mainly interested to see how a JavaScript-based engine would perform against Freemarker/Velocity.
 
 Engines tested:
+
 * StringTemplate
 * Freemarker
 * Velocity
