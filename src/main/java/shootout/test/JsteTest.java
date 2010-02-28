@@ -21,7 +21,7 @@ public class JsteTest extends TemplateTest implements TemplateRunnable
 		{
 			case STOCK_MARKET:
 				context = StockMarketContext.generateMap();
-				template = new Template(new FileReader(getTemplate("stockmarket/jste")));
+				template = new Template(new FileReader(getTemplate("stockmarket/jste.tpl")));
 				break;
 			default:
 				throw new Exception("Test not implemented");
