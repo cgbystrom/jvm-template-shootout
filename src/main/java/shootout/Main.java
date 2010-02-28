@@ -23,6 +23,8 @@ public class Main
 		runner.addTests(StringTemplateTest.class);
 		runner.addTests(VelocityTest.class);
 		runner.addTests(FreemarkerTest.class);
+		runner.addTests(JavaTest.class);
+		runner.addTests(JavaTypedTest.class);
 		runner.run();
 	}
 }

@@ -11,6 +11,54 @@ import org.apache.velocity.VelocityContext;
 
 public class StockMarketContext
 {
+	public static class Stock
+	{
+		public Stock(String name, String name2, String url, String symbol, Double price, Double change, Double ratio)
+		{
+			this.name = name;
+			this.name2 = name2;
+			this.url = url;
+			this.symbol = symbol;
+			this.price = price;
+			this.change = change;
+			this.ratio = ratio;
+		}
+
+		public String name;
+		public String name2;
+		public String url;
+		public String symbol;
+		public Double price;
+		public Double change;
+		public Double ratio;
+	}
+
+	public static List<Stock> generateTyped()
+	{
+		List<Stock> list = new ArrayList<Stock>();
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		list.add(new Stock("Apple", "Adobe Systems Inc.", "http://www.apple.com", "AAPL", 39.26, -0.87, -1.01));
+		list.add(new Stock("Adobe Systems", "Adobe Systems Inc.", "http://www.adobe.com", "ADBE", 39.26, 0.13, 0.33));
+		return list;
+	}
+
 	public static List generateList()
 	{
 		List list = new ArrayList();
