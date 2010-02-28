@@ -20,6 +20,8 @@ Engines tested:
 * tpls/sec = number of generated templates per CPU second
 * ms/tpl = time spent per template in generation
 
+
+
        Iterations: 50000
     Warmup iterations: 10000
 
