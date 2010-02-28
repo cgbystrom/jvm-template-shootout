@@ -20,18 +20,19 @@ Engines tested:
 * tpls/sec = number of generated templates per CPU second
 * ms/tpl = time spent per template in generation
 
+       Iterations: 50000
+    Warmup iterations: 10000
 
-               Iterations: 100000
-        Warmup iterations: 10000
-
-        Test: STOCK_MARKET
-                             Test |     Real |     User |   System |      CPU |   tpls/sec |   ms/tpl
-        ---------------------------------------------------------------------------------------------------
-          GroovySimpleTemplateTest      30206      26607        571      27179     3679.31       0.27
-                          JsteTest      36008      33747        670      34418     2905.46       0.34
-                StringTemplateTest       8068       7471        152       7623    13118.19       0.08
-                      VelocityTest       6586       6104        125       6230    16051.36       0.06
-                    FreemarkerTest      11654      10852        216      11069     9034.24       0.11
+    Test: STOCK_MARKET
+                              Test |     Real |     User |   System |      CPU |   tpls/sec |   ms/tpl
+    ---------------------------------------------------------------------------------------------------
+          GroovySimpleTemplateTest      14092      13319        258      13578     3682.43       0.27
+                          JsteTest      35619      33634        636      34270     1459.00       0.69
+                StringTemplateTest       3958       3675         77       3753    13322.68       0.08
+                      VelocityTest       3281       2911         59       2971    16829.35       0.06
+                    FreemarkerTest       5969       5078        100       5178     9656.24       0.10
+                          JavaTest        659        607         10        617    81037.28       0.01
+                     JavaTypedTest        555        507         10        517    96711.80       0.01
 
 
 ## Todo
