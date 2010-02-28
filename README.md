@@ -4,6 +4,7 @@ Small benchmark utility for testing different templating engines available on th
 I was mainly interested to see how a JavaScript-based engine would perform against Freemarker/Velocity.
 
 Engines tested:
+
 * StringTemplate
 * Freemarker
 * Velocity
@@ -12,12 +13,12 @@ Engines tested:
 
 ## Sample output
 
-Real = Wall clock time in ms
-User = Time spent in userland in ms
-System = Time spent in systemland in ms
-CPU = Total CPU time spent in ms
-tpls/sec = number of generated templates per CPU second
-ms/tpl = time spent per template in generation
+* Real = Wall clock time in ms
+* User = Time spent in userland in ms
+* System = Time spent in systemland in ms
+* CPU = Total CPU time spent in ms
+* tpls/sec = number of generated templates per CPU second
+* ms/tpl = time spent per template in generation
 
 
            Iterations: 100000
