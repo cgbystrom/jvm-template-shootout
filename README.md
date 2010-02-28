@@ -21,12 +21,12 @@ Engines tested:
 * ms/tpl = time spent per template in generation
 
 
-           Iterations: 100000
-    Warmup iterations: 10000
+               Iterations: 100000
+        Warmup iterations: 10000
 
-    Test: STOCK_MARKET
-                              Test |     Real |     User |   System |      CPU |   tpls/sec |   ms/tpl
-    ---------------------------------------------------------------------------------------------------
+        Test: STOCK_MARKET
+                             Test |     Real |     User |   System |      CPU |   tpls/sec |   ms/tpl
+        ---------------------------------------------------------------------------------------------------
           GroovySimpleTemplateTest      30206      26607        571      27179     3679.31       0.27
                           JsteTest      36008      33747        670      34418     2905.46       0.34
                 StringTemplateTest       8068       7471        152       7623    13118.19       0.08
@@ -47,4 +47,3 @@ Engines tested:
 ## License
 
 Open source licensed under MIT (see _LICENSE_ file for details).
-
